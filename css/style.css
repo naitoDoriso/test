@@ -1,0 +1,54 @@
+body {
+    background-color:powderblue;
+    font-family: sans-serif;
+}
+
+hr {
+    border-color: #aaa;
+}
+
+.container {
+    display: flex;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4px;
+}
+
+.submit {
+    width: 100%;
+    margin: 5px 1px;
+    padding: 7px 10px;
+    text-transform: uppercase;
+}
+
+label {
+    width: 140px;
+    margin: 3px 8px 0 0;
+    text-align: right;
+}
+
+.inputs {
+    width: 300px;
+    padding: 3px 2px;
+    outline: 0;
+}
+
+table{
+    background-color: white;
+    width: 550px;
+    text-align: center;
+}
+
+a{
+    display: block;
+    margin-top: 10px;
+}
+
+
+footer {
+    bottom: 0;
+    position: absolute;
+}
