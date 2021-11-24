@@ -46,6 +46,9 @@
     <script>
         document.getElementById('ano').setAttribute("max",new Date().getFullYear()+"-"+(new Date().getMonth()+1)+"-"+new Date().getDate());
     </script>
+    <?php
+        echo "a";
+    ?>
 </body>
 
 </html>
